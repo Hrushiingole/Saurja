@@ -65,7 +65,7 @@ const Home = () => {
         />
       </div>
 
-      <h1 className="text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-400 via-yellow-300 to-orange-300">
+      <h1 className="text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-400 via-yellow-300 to-orange-300">
         COMING <br />
         SOON.
       </h1>
