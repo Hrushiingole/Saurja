@@ -8,7 +8,7 @@ function App() {
 
       {/* Content */}
       <div className="relative z-10">
-        <Home />
+        <Home/>
       </div>
     </div>
   );
