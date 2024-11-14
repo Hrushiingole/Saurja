@@ -3,14 +3,18 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon, IdentificationIcon, DocumentIcon }
 
 const Footer = () => {
   return (
-    <div className="w-4/5 mt-auto border-t border-gray-300 py-4 flex items-center justify-center bg-gray-50">
-      <div className="text-gray-500 flex flex-wrap justify-center space-x-4 text-xs text-gray-600">
-        <p className="flex items-center">
+    <div className="md:w-4/5 mt-auto border-t border-gray-300 py-4 flex items-center justify-center bg-gray-50">
+      <div className="text-gray-500 gap-2 flex flex-wrap justify-center space-x-4 text-xs ">
+        <p className="flex items-center ">
           <PhoneIcon className="h-4 w-4 mr-1" /> 7860555222
         </p>
         <p className="flex items-center">
-          <EnvelopeIcon className="h-4 w-4 mr-1" /> urjacart@gmail.com
-        </p>
+  <EnvelopeIcon className="h-4 w-4 mr-1" />
+  <a href="mailto:urjacart@gmail.com" className=" hover:underline">
+    urjacart@gmail.com
+  </a>
+</p>
+
         <p className="flex items-center">
           <MapPinIcon className="h-4 w-4 mr-1" /> C-1026, C Block, Indira Nagar, Lucknow, U.P
         </p>
